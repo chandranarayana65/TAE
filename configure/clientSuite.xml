@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="clientSuite">
+
+	<test name="regresionTests">
+		<classes>
+			<class name="org.com.taetest.LoginPage" />
+			<class name="org.com.taetest.Dashboard" />
+		</classes>
+	</test>
+
+	<test name="sanityTests">
+		<classes>
+			<class name="org.com.taetest.LoginPage" />
+			<class name="org.com.taetest.Dashboard" />
+		</classes>
+	</test>
+	
+</suite>
